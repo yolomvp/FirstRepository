@@ -1,0 +1,56 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid__item h2{
+    color: #aaaaaa;
+    font-weight: normal;
+}
+
+.experience {
+    display: flex;
+    gap: 50px;
+    overflow-wrap:break-word
+}
+
+.experience__interval {
+    width: 110px;
+}
+
+.experience__interval p{
+    color: #aaaaaa;
+}
+
+.experience__place {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills__name {
+    background-color: #e1e0e0;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.skills__name:hover {
+    background-color: #eeeded;
+    cursor: pointer;
+}
